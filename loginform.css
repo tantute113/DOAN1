@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url('image/login2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+h1 {
+    border-bottom: 1px solid white;
+    margin-top: 10px;
+    color: whitesmoke;
+}
+
+.label {
+    box-shadow: 0 0 15px rgba(0, 0, 0, .5);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 300px;
+}
+
+.label label {
+    color: white;
+    margin-top: 5px;
+    margin-left: 18px;
+    display: flex;
+}
+
+.label .why a {
+    padding-top: 10px;
+    color: black;
+    margin-top: 10px;
+}
+
+.label .why {
+    margin-top: 10px;
+}
+
+textarea {
+    transition: 0.25s;
+    width: 90%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    resize: none;
+}
+
+textarea:focus {
+    width: 80%;
+}
+
+.label input {
+    margin-top: 4px;
+    padding: 12px;
+    border: none;
+    outline: none;
+    width: 290px;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.label input:hover {
+    cursor: pointer;
+}
+
+.label input[type="submit"] {
+    background-color: white;
+    margin-top: 20px;
+    cursor: pointer;
+    color: black;
+    transition: 0.25s;
+    font-weight: 700;
+    width: 170px;
+    padding: 10px;
+}
+
+.label input[type="submit"]:hover {
+    color: white;
+    background-color: #5BC0DE;
+    width: 170px;
+    cursor: pointer;
+}
+
+.label input:focus {
+    width: 300px;
+}
+
+::-webkit-input-placeholder:focus {
+    color: white;
+
+}
+
+@media (max-width:375px) {
+    .label {
+        width: 350px;
+    }
+
+    .label input {
+        width: 300px;
+    }
+}

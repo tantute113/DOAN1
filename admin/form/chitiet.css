@@ -1,0 +1,108 @@
+.ctrl{
+    height: 30px;
+    width: 100px;
+    border: blueviolet solid 1px;
+    
+    float: left;
+}
+.ctrl a{
+    color: blueviolet;
+    font-weight: bold;
+    
+    text-decoration: none;
+}
+.body-CT{
+    height: 700px;
+    width: 85%;
+    font-family: 'Segoe UI';
+    margin: 80px auto;
+}
+.frame_chung{
+    height: 550px;
+    width: 90%;
+    margin: 100px auto;
+}
+.frame_chung img{
+    height: 380px;
+    width: 400px;
+    margin: 0 auto;
+    box-shadow: 20px 20px #FF0066;
+    border: #FF0066 solid 1px;
+}
+.mini{
+    height: 450px;
+    width: 700px;
+    float: right;
+}
+.frame_a{
+    height: 75px;
+    width: 700px;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    color: #FF0066;
+    margin-bottom: 50px;
+    border-bottom: #FF0066 solid 3px;
+}
+.frame_b{
+    font-size: larger;
+    text-align: justify;
+}
+/*******************====================================RESPONDSIVE_WEB_NE========================================================*****/
+@media all and (max-width: 480px) {
+    .frame_chung{
+        margin: 0px auto;
+    }
+    .body-CT{
+        margin: 0 auto;
+    }
+    .ctrl{
+        font-size: larger;
+        margin-left: 32px;
+    }
+    .frame_chung img{
+        height: 250px;
+        width: 99%;
+        float: left;
+        box-shadow: none;
+        margin-top: 30px;
+    }
+    .frame_a{
+        height: 150px;
+        width: 99%;
+        margin-top: 30px;
+    }
+    .mini{
+        width: 99%;
+        float: left;
+    }
+}
+@media all and (width: 768px) {
+    .frame_a{
+        margin-left: 60px;
+        margin-top: 30px;
+    }
+    .frame_b{
+        margin-left: 60px;
+    }
+    .body-CT{
+        margin: 0 auto;
+    }
+    .frame_chung img{
+        margin-left: 10%;
+    }
+}
+@media all and (width: 1024px) {
+    .frame_a{
+        margin-top: 30px;
+    }
+    .body-CT{
+        margin: 0 auto;
+    }
+    .frame_chung{
+        margin: 0 auto;
+    }
+    .frame_chung img{
+        margin-left: 30%;
+    }
+}

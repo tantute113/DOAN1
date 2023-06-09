@@ -1,0 +1,137 @@
+*{
+    font-family: 'Segoe UI';
+   
+    
+}
+.container-LG{
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+    margin-top: 0px;
+    background-image: url('./anh_form/bg.jpg');
+
+}
+.body{
+    height: 600px;
+    width: 700px;
+    margin: 35px auto;
+    line-height: 50px;
+    border-radius: 5px;
+    border:solid 1px palevioletred;
+    background-image: url('./anh_form/background_login.jpg');
+    background-size: 350px auto;
+}
+.form h1{
+    color: #FF0066;
+    margin-left: 12px;
+    line-height: 70px;
+}
+label{
+    margin-left: 12px;
+    font-size: larger;
+}
+input{
+    height: 40px;
+    width: 45%;
+    margin-left: 12px;
+    background-color: pink;
+    border:none;
+    border-bottom: solid 1px palevioletred;
+}
+.btn{
+    height: 40px;
+    width: 20%;
+    color: #FF0066;
+    font-size: 1em;
+    font-weight: bold;
+    border:solid 1px palevioletred;
+    border-radius: 5px;
+    margin-left: 12%;
+    margin-top: 200px;
+    background-color: pink;
+}
+h2{
+    float: right;
+    font-size: 2em;
+    margin-top: 100px;
+    margin-right: 8%;
+}
+.hint{
+    margin-left: 50px;
+}
+a{
+    color:#FF0066;
+    text-decoration: none;
+    font-weight: bold;
+}
+.loai{
+    display: none;
+}
+.control a{
+    color: pink;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.box{
+    float: right;
+}
+
+/*===================================================RESPONDSIVE_WEB_NE====================================================================*/
+@media all and (max-width: 480px) {
+    .body{
+        height: 549px;
+        width: 99%;
+        margin: 0px auto;
+        line-height: 60px;
+        background-repeat:no-repeat;
+        background-size: cover;
+    }
+    .form h1{
+        text-align: center;
+        line-height: 50px;
+    }
+    h2{
+        display: none;
+    }
+    .control{
+        display: none;
+    }
+    label{
+        margin-left: 5px;
+        font-size: larger;
+    }
+    input{
+        height: 40px;
+        width: 95%;
+        margin-left: 5px;
+        background-color: pink;
+        border:none;
+        border-bottom: solid 1px palevioletred;
+    }
+    .btn{
+        height: 40px;
+        width: 40%;
+        border-radius: 5px;
+        margin-left: 29%;
+        margin-top: 100px;
+    }
+    .container-LG{
+        height: 100%;
+        width: 100%;
+        border: none;
+        margin-top: 0px;
+        background-image:none;
+    
+    }
+ }
+ @media all and (width: 768px) {
+    .container-LG{
+        height: 1000px;
+        width: 100%;
+    }
+    .body{
+        margin-top: 200px;
+    }
+ }
+ 

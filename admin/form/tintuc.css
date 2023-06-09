@@ -1,0 +1,121 @@
+*{
+    font-family: 'Segoe UI';
+}
+.body{
+    height: 550px;
+    width: 85%;
+    margin: 80px auto;
+    border:none;
+}
+
+.khungtren{
+    height: 50px;
+    width: 100%;
+    border: none;
+    border-bottom: 3px solid #FF0066;
+}
+.khungduoi{
+    height: 350px;
+    width: 100%;
+}
+.khungtren h1{
+    color:  #FF0066;
+    text-align: center;
+}
+.khung{
+    height: 350px;
+    width: 350px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+.anh{
+    height: 200px;
+    width: 100%;
+    float: left;
+}
+.anh img{
+    height: 200px;
+    width: 99%;
+    object-fit: cover;
+}
+.tieude{
+    height: 75px;
+    width: 99%;
+    font-size: large;
+    line-height: 30px;
+    margin-top: 200px;
+    border-bottom: 3px solid #FF0066;
+}
+.noidung{
+    height: 70px;
+    width: 99%;
+}
+.noidung a{
+    float: right;
+}
+.control-btn{
+    height: 50px;
+    width: 99.9%;
+    margin-top: 32px;
+    background-color: pink;
+}
+.btn{
+    height: 50px;
+    width: 20%;
+    float: right;
+    
+}
+.noidung a{
+    text-decoration: none;
+    color: blueviolet;
+}
+.btn a{
+    line-height: 50px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*******************====================================RESPONDSIVE_WEB_NE========================================================********************/
+@media all and (max-width: 480px) {
+    .khungtren{
+        width: 99%;
+    }
+    .khungduoi{
+        height: 1200px;
+        width: 99%;
+        float: none;
+        margin: none;
+    }
+    .body{
+        margin: none;
+        width: 99%;
+    }
+    .control-btn{
+        width: 100%;
+    }
+    .btn{
+        width: 100%;
+    }
+    .khung{
+        width: 99%;
+        margin-left: 0px;
+    }
+    .tieude{
+        line-height: 20px;
+    }
+}
+@media all and (width: 768px) {
+    .khungduoi{
+        height: 1200px;
+    }
+    .khung{
+        height: 400px;
+        width:500px;
+    }
+}
+@media all and (width: 1024px) {
+    .khungduoi{
+        height: 800px;
+    }
+}

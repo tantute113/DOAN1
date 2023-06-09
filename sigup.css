@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url('image/login2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+h1 {
+    border-bottom: 1px solid white;
+    margin-top: 10px;
+    color: whitesmoke;
+}
+
+.label {
+    box-shadow: 0 0 15px rgba(0, 0, 0, .5);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 550px;
+}
+
+.label label {
+    color: white;
+    margin-top: 5px;
+    margin-left: 18px;
+    display: flex;
+
+}
+
+textarea {
+    transition: 0.25s;
+    width: 90%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    resize: none;
+}
+
+textarea:focus {
+    width: 80%;
+}
+
+.label input {
+    margin-top: 4px;
+    padding: 7px;
+    border: none;
+    outline: none;
+    width: 350px;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.label input:hover {
+    cursor: pointer;
+}
+
+.label input[type="submit"] {
+    background-color: white;
+    margin-top: 20px;
+    cursor: pointer;
+    color: black;
+    transition: 0.25s;
+    font-weight: 700;
+    width: 170px;
+}
+
+.label input[type="reset"] {
+    transition: 0.3s ease-in-out;
+    width: 130px;
+    font-weight: 700;
+    background-color: white;
+
+}
+
+.label input[type="reset"]:hover {
+    width: 130px;
+    background-color: #5BC0DE;
+    color: white;
+}
+
+.label input[type="reset"]:focus {
+    width: 130px;
+}
+
+.label input[type="submit"]:hover {
+    color: white;
+    background-color: #5BC0DE;
+    width: 170px;
+    cursor: pointer;
+}
+
+.label input:focus {
+    width: 300px;
+}
+
+::-webkit-input-placeholder:focus {
+    color: white;
+
+}
+
+@media (max-width:375px) {
+    .label {
+        width: 350px;
+    }
+
+    .label input {
+        width: 300px;
+    }
+}
